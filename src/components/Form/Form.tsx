@@ -1,6 +1,7 @@
 import { FiSearch } from "react-icons/fi";
 import toast from "react-hot-toast";
-import { FormEvent, useState, ChangeEvent } from "react";
+import { useState } from "react";
+import type { FormEvent, ChangeEvent } from "react";
 
 import style from "./Form.module.css";
 

@@ -1,5 +1,5 @@
 import style from "./Grid.module.css";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 interface GridProps {
   children: ReactNode;

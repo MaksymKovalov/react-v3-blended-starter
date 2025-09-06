@@ -10,7 +10,7 @@ import Loader from "../Loader/Loader";
 import Text from "../Text/Text";
 
 import { getPhotos } from "../../services/photos";
-import { Photo } from "../../types/photo";
+import type { Photo } from "../../types/photo";
 
 export default function App() {
   const [photos, setPhotos] = useState<Photo[]>([]);

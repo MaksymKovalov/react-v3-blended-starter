@@ -1,5 +1,5 @@
 import style from "./GridItem.module.css";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 interface GridItemProps {
   children: ReactNode;

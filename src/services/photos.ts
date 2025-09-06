@@ -1,5 +1,5 @@
 import axios from "axios";
-import { PhotosResponse } from "../types/photo";
+import type { PhotosResponse } from "../types/photo";
 
 const API_KEY = import.meta.env.VITE_PEXELS_API_KEY;
 

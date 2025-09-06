@@ -1,6 +1,6 @@
 import styles from "./PhotosGalleryItem.module.css";
-import { Photo } from "../../types/photo";
-import { MouseEvent } from "react";
+import type { Photo } from "../../types/photo";
+import type { MouseEvent } from "react";
 
 interface PhotosGalleryItemProps {
   photo: Photo;

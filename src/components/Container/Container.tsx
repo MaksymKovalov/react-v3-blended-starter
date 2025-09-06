@@ -1,7 +1,10 @@
-import React from "react";
-
 import styled from "./Container.module.css";
+import type { ReactNode } from "react";
 
-export default function Container({ children }) {
+interface ContainerProps {
+  children: ReactNode;
+}
+
+export default function Container({ children }: ContainerProps) {
   return <div className={styled.container}>{children}</div>;
 }
